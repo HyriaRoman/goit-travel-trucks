@@ -24,7 +24,14 @@ export default function Markup(): React.ReactNode {
     <main>
       <div className={classList("container", css["demo"])}>
         <DemoSection title="Icons">
-          <Icon />
+          <Icon name="logo" />
+          <Icon name="transmission" />
+          <Icon name="star" />
+          <Icon name="star" color="rating" />
+          <Icon name="map" />
+          <Icon name="fuel" />
+          <Icon name="error" />
+          <Icon name="car" />
         </DemoSection>
 
         <DemoSection title="Inputs">
