@@ -1,0 +1,35 @@
+.demo {
+  padding: 32px 0;
+}
+
+.demo-section {
+  display: block;
+  position: relative;
+
+  padding: 24px 16px 16px;
+  border: 1px dashed #9747ff;
+  border-radius: 5px;
+
+  &:not(:first-child) {
+    margin-top: 32px;
+  }
+}
+
+.demo-section__title {
+  position: absolute;
+  top: calc(-0.5em - 4px);
+  left: 16px;
+
+  display: block;
+  padding: 0 8px;
+
+  background-color: #9747ff;
+  border-radius: 5;
+  color: #fff;
+}
+
+.demo-section__list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+}
