@@ -55,7 +55,12 @@ h6 {
 }
 
 a {
+  display: inline-block;
   color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
   text-decoration: none;
 }
 
