@@ -1,0 +1,39 @@
+.icon--inherit {
+  color: inherit;
+}
+
+.icon--gray {
+  color: var(--gray);
+}
+
+.icon--gray-light {
+  color: var(--gray-light);
+}
+
+.icon--button {
+  color: var(--button);
+}
+
+.icon--button-hover {
+  color: var(--button-hover);
+}
+
+.icon--rating {
+  color: var(--rating);
+}
+
+.icon--grey-green {
+  color: var(--grey-green);
+}
+
+.icon--olive {
+  color: var(--olive);
+}
+
+.icon--green-hover {
+  color: var(--green-hover);
+}
+
+.icon--error {
+  color: #ec383b;
+}
