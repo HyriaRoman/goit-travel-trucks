@@ -48,3 +48,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.container {
+  max-width: calc(1312px + 2 * 16px);
+  margin: 0 auto;
+  padding: 0 16px;
+}
