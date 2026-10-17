@@ -64,6 +64,17 @@ a {
   text-decoration: none;
 }
 
+button {
+  display: inline-block;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
 .container {
   max-width: calc(1312px + 2 * 16px);
   margin: 0 auto;
